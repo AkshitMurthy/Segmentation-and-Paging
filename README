@@ -1,0 +1,24 @@
+Steps to simulate segmentation:
+
+1. Compile the file 'Seg.cpp'
+   g++ Seg.cpp
+
+2. Run the output file : ./a.out
+
+3. The initial hole configuration is displayed. The menu is also displayed.
+ 
+4. Choose appropriate option and enter details: text, data and heap sizes in case of allocation,
+   process id in case of deallocation. The memory configuration and segment table is displayed after every operation.
+
+
+
+Steps tp simulate paging
+
+1. Compile the file 'Pag.cpp' : g++ Pag.cpp
+
+2. Run the output file: ./a.out
+ 
+3. The initial frames in the physical memory is displayed along with the menu.
+
+4. Select appropraite option and enter the details: Size of process in case of allocation, process id in case of deallocation.
+   The frame configuration and page table is displayed after avery operation.
